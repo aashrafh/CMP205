@@ -1,6 +1,4 @@
 # Colored Sphere and Solar System
-A sphere of radius 1 centered around the origin (0,0,0) and the number of vertical and horizontal segments must be as defined by the input parameters. The color of each vertex will depend on its position and must follow the following formula: 
-(r,g,b) = ((x,y,z) + 1) / 2 * 255 a = 255
 
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/colored-sphere-32x32.png)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-32x32.png)
@@ -9,6 +7,7 @@ A sphere of radius 1 centered around the origin (0,0,0) and the number of vertic
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-16x16_2.png)
 
 # Solar System
+
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/LifeDemo.gif)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-1%400.png)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-1%400-Cubes.png)
