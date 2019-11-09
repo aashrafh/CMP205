@@ -2,6 +2,13 @@
 A sphere of radius 1 centered around the origin (0,0,0) and the number of vertical and horizontal segments must be as defined by the input parameters. The color of each vertex will depend on its position and must follow the following formula: 
 (r,g,b) = ((x,y,z) + 1) / 2 * 255 a = 255
 
+The function takes 3 parameters:
+* `gl`: WebGL2RenderingContext which is the WebGL2 context.
+* `verticalResolution`: number which defines the number of segments from the north pole to the
+south pole of the sphere.
+* `horizontalResolution`: number which defines the number of segments along the equator of the
+sphere
+
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/colored-sphere-32x32.png)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-32x32.png)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-32x32_2.png)
@@ -9,6 +16,11 @@ A sphere of radius 1 centered around the origin (0,0,0) and the number of vertic
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-16x16_2.png)
 
 # Solar System
+
+The function takes 2 paramter:
+* `parent`: mat4 which is the transformation of the parent to the homogenous clip space "MVP".
+* `system`: SolarSystemDescription which defines the stucture of the solar system
+
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/LifeDemo.gif)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-1%400.png)
 ![SolarSystemDemo](https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-1%400-Cubes.png)
