@@ -14,16 +14,16 @@ uniform mat4 P_i; // Projection matrix inverse
 uniform mat4 prevVP;
 
 
-const int WINDOW = 32;
+const int WINDOW = 26;
 const float sigma = 40.0;
 
 void main(){
 
     float depth = texture(depth_sampler, v_screencoord).x;
     vec4 NDC = vec4(2.0*v_screencoord.x-1.0, 2.0*v_screencoord.y-1.0, 2.0*depth-1.0, 1.0);
-    vec4 cur_world_pos = P_i *  NDC;// regenerate the NDC and multiply by projection inverse
+    vec4 cur_world_pos = P_i *  NDC;
     cur_world_pos = cur_world_pos / cur_world_pos.w;
-    //cur_world_pos = cur_world_pos / cur_world_pos.w; // Divide by w to get the point in view space
+    
 
     vec4 prev_world_pos = cur_world_pos - texture(motion_sampler, v_screencoord);  //review
    //prev_world_pos = prev_world_pos / prev_world_pos.w; // Divide by w to get the point in view space
