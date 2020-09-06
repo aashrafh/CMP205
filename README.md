@@ -13,7 +13,6 @@
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-32x32_2.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-16x16.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-16x16_2.png" alt="SolarSystemDemo">
-    <img src="https://github.com/aashrafh/SpaceTrippers/blob/Game/demo/demo-img-3.png" alt="Image Demo">
   </p>
   </div>
 
@@ -24,7 +23,6 @@
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-1%400.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-1%400-Cubes.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-2%400.png" alt="SolarSystemDemo">
-    <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/point-sphere-16x16_2.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-2%400-Cubes.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-3%401200.png" alt="SolarSystemDemo">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Solar%20System/output/System-3%401200-Cubes.png" alt="SolarSystemDemo">
@@ -33,7 +31,7 @@
   </p>
   </div>
 
-## 🎥 How To Play <a name = "motion-blur"></a>
+## 🎥 Motion Blur <a name = "motion-blur"></a>
 <div name="colored-sphere" align="center" width=1189px>
   <p align="center">
     <img src="https://github.com/aashrafh/CMP205/blob/master/Motion%20Blur/demo/MotionBlurGIF.gif" alt="MotionBlurDemo">
